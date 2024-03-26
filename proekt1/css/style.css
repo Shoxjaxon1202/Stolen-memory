@@ -1,0 +1,604 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+body {
+  background-color: gray;
+}
+.container {
+  width: 1400px;
+  margin: 100px auto;
+  background-color: #fff;
+}
+.wrapper {
+  width: 1200px;
+  margin: 100px auto;
+}
+header {
+  background-color: #221d26;
+  height: 3100px;
+}
+.navbar {
+  height: 800px;
+  background-image: url(../img/starDesktop.png);
+  background-repeat: no-repeat;
+  margin-bottom: 160px;
+}
+
+.navbar__text {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  width: 646px;
+  height: 245px;
+
+  /* Jewelry, photos, papers – the Nazis confiscated all the victims’ personal belongings on their arrest. Several thousand of these items from the concentration camps still exist today. We search for the victims’ families and return these things to them. */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 39px;
+  /* or 130% */
+
+  color: #221d26;
+}
+
+/* INTRO */
+
+.intro1__img {
+  position: relative;
+  left: 130px;
+}
+.intro1__texts {
+  position: relative;
+  bottom: 670px;
+  left: 800px;
+  width: 400px;
+  padding: 50px;
+  background-color: #fff;
+}
+.intro1__title,
+.intro2__title {
+  /* He didn’t want to help the Nazis. */
+
+  width: 323px;
+  height: 96px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 48px;
+  /* or 160% */
+
+  color: #221f26;
+}
+.intro2__img {
+  position: relative;
+  left: 230px;
+}
+.intro2__texts {
+  position: relative;
+  bottom: 670px;
+  left: 130px;
+  width: 400px;
+  padding: 50px;
+  background-color: #fff;
+}
+
+.intro__text {
+  /* More about Helena */
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 120% */
+  letter-spacing: 0.71px;
+  margin-top: 24px;
+  color: #2b2630;
+}
+.intro3__img {
+  filter: drop-shadow(-8px 30px 17px rgba(34, 31, 38, 0.3));
+  border-radius: 0px;
+}
+.adiblar {
+  margin-top: 300px;
+}
+.adiblar__title {
+  /* Window onto history */
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 48px;
+  /* identical to box height, or 160% */
+  margin-bottom: 55px;
+
+  color: #221f26;
+}
+.adiblar__text {
+  /* A wallet or a watch suddenly turns up out of the blue. And sometimes a story that nobody knew anything about: What do children and grandchildren feel when they hold these memories in their hands? */
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+  /* or 175% */
+  margin-bottom: 20px;
+
+  color: #221f26;
+}
+.adib__card {
+  display: flex;
+  flex-wrap: wrap;
+  /* gap: 120px; */
+  align-items: center;
+}
+.adib {
+  margin-right: 100px;
+}
+.adib__img {
+  position: relative;
+  top: 100px;
+  left: 50px;
+  width: 400px;
+  height: 505px;
+}
+.adib__texts {
+  background-color: #221d26;
+  padding: 50px;
+  width: 400px;
+  height: 140px;
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+}
+.adib__title {
+  /* Yves Stappers */
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+  /* identical to box height, or 175% */
+
+  color: #ffffff;
+}
+
+/* QUTI */
+
+.quti__title,
+.quti__title2 {
+  /* Some 2500 objects are still waiting */
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 48px;
+  /* identical to box height, or 160% */
+
+  color: #221f26;
+}
+.quti__title {
+  margin-bottom: 55px;
+  margin-top: 100px;
+}
+.quti__text,
+.quti__text2 {
+  /* #StolenMemory was launched in 2016. With the help of volunteers, we are trying to trace the relatives of victims of Nazi persecution. Because their personal belongings do not belong to the archive, they are just stored there. */
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+  /* or 175% */
+
+  color: #221f26;
+}
+.quti__card {
+  background-color: #221d26;
+  width: 1180px;
+  height: 525px;
+}
+.quti__texts {
+  position: relative;
+  top: 100px;
+  left: 40px;
+  background-color: #fff;
+  width: 440px;
+  height: 300px;
+  padding: 45px 54px 48px 55px;
+}
+.quti__title2 {
+  margin-bottom: 25px;
+}
+.quti__text2 {
+  margin-bottom: 50px;
+}
+.quti__img {
+  width: 700px;
+  height: 550px;
+  position: relative;
+  top: 430px;
+  left: 500px;
+}
+
+/* LIFE */
+
+.life__title {
+  /* Life as it was before imprisonment */
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 48px;
+  /* identical to box height, or 160% */
+
+  color: #221f26;
+  margin-top: 100px;
+  margin-bottom: 55px;
+}
+.life__text {
+  /* Some 2,500 envelopes containing various objects are still waiting to be returned to the families of the victims. Here you can find photos and 3D scans of some “effects” and the names of their owners. */
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+  /* or 175% */
+
+  color: #221f26;
+}
+.life__cards {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.life__card {
+  width: 393px;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+}
+.life__texts {
+  background-color: #221f26;
+  padding: 120px 50px 66px 40px;
+}
+.name {
+  /* Nikolai Berezyn */
+  width: 240px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+  /* identical to box height, or 175% */
+
+  color: #ffffff;
+}
+.contry {
+  /* from Gromowka */
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 35px;
+  /* identical to box height, or 184% */
+
+  color: #ffffff;
+}
+.life__card__img {
+  position: relative;
+  top: 100px;
+}
+.life {
+  padding-bottom: 300px;
+}
+.life__btn {
+  position: relative;
+  top: 200px;
+  margin: auto;
+  width: 171px;
+  height: 74px;
+  /* Rectangle */
+
+  box-sizing: border-box;
+
+  border: 1px solid #2b2630;
+  border-radius: 0px;
+
+  /* Load more */
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 133% */
+  text-align: center;
+
+  color: #221f26;
+}
+.links {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  justify-content: center;
+  padding-bottom: 80px;
+}
+.links__text {
+  /* To find all the names and */
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+  /* identical to box height, or 175% */
+  text-align: center;
+
+  color: #221f26;
+}
+.links__link {
+  /* see all the objects */
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+  /* identical to box height, or 175% */
+  text-align: center;
+
+  color: #000fa0;
+}
+.objects {
+  background-color: #221d26;
+  padding: 200px 120px;
+}
+.arolsan {
+  margin-bottom: 100px;
+}
+.arolsan__title {
+  /* What do the Arolsen Archives do? */
+  margin-bottom: 55px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 48px;
+  /* identical to box height, or 160% */
+
+  color: #ffffff;
+}
+.arolsan__text {
+  /* We are the most comprehensive archive on the victims of Nazi persecution. We have been collecting information, researching fates, and reuniting families since 1948. Now, we also develop concepts for research and education work. We use new digital formats to help keep the memory of the victims alive. */
+  margin-bottom: 120px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+  /* or 175% */
+
+  color: #ffffff;
+}
+.arolsan__card,
+.qiz__card {
+  position: relative;
+  left: 100px;
+  width: 980px;
+  height: 500px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 200px;
+}
+.arolsan__img {
+  position: relative;
+  right: 100px;
+  width: 380px;
+  height: 390px;
+}
+.arolsan__card__title {
+  /* About us */
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 48px;
+  /* identical to box height, or 160% */
+
+  color: #221f26;
+}
+.arolsan__texts {
+  position: relative;
+  bottom: 80px;
+  right: 150px;
+  width: 350px;
+  height: 260px;
+}
+.arolsan__card__text {
+  /* Our website can tell you more about the work we do. And about how you can help us to keep memories and keep history alive. */
+
+  width: 320px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  letter-spacing: 0.2px;
+
+  color: #2b2630;
+  margin-top: 18px;
+  margin-bottom: 48px;
+}
+.arolsan__btn {
+  /* Rectangle */
+
+  box-sizing: border-box;
+  width: 347px;
+  height: 74px;
+
+  border: 1px solid #2b2630;
+  border-radius: 0px;
+  background-color: #fff;
+
+  /* Arolsen Archives */
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 24px;
+  /* identical to box height, or 109% */
+
+  color: #2b2630;
+}
+.qiz__texts {
+  position: relative;
+  bottom: 60px;
+  left: 150px;
+}
+.qol__qiz__img {
+  position: relative;
+  left: 100px;
+  width: 380px;
+  height: 390px;
+}
+
+/* EXHABTIONS */
+
+.exhabitions {
+  padding: 100px 120px;
+}
+.exhabitions__text {
+  /* Our exhibitions */
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 48px;
+  /* identical to box height, or 160% */
+
+  color: #221f26;
+}
+.object__title {
+  /* News #StolenMemory */
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 48px;
+  /* identical to box height, or 160% */
+
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+.memories {
+  display: flex;
+  gap: 21px;
+}
+.memory {
+  width: 380px;
+  height: 500px;
+  background-color: #fff;
+}
+.memory__texts {
+  padding: 20px 30px;
+}
+.memory__new,
+.memory__date {
+  /* News */
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  /* identical to box height, or 186% */
+  text-transform: uppercase;
+
+  color: #2b2630;
+}
+.memory__new {
+  margin-bottom: 24px;
+}
+.memory__title {
+  /* Cancellation of our traveling exhibition from November 2020 onwards */
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 35px;
+  /* or 159% */
+
+  color: #2b2630;
+  margin-bottom: 63px;
+}
+
+/* FOOTER */
+
+footer {
+  display: flex;
+  padding: 80px 120px;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer__left,
+.footer__center {
+  display: flex;
+  flex-direction: column;
+}
+form {
+  display: flex;
+  margin-bottom: 24px;
+}
+form input {
+  padding: 10px 15px;
+  width: 300px;
+}
+.social {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+}
+.sotuv {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.ramz {
+  margin-top: 23px;
+  display: flex;
+  gap: 10px;
+  align-items: start;
+}
+.chiziqlar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
